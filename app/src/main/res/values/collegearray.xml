@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="collegelist">
+        <item>IIT Roorkee</item>
+        <item>IIT Kanpur</item>
+        <item>IIT Delhi</item>
+        <item>IIT Bombay</item>
+    </string-array>
+    <string-array name="collegevalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

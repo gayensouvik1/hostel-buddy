@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\classes-cd0d98e577dcfaeccc6b6d1d28e6f663e6d18dbc.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\classes-128afa2c6975af990cc0db613e8a594c4e8e8166.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\classes-a058cf7f32543f3ef41bd91c3a9732c44ef6676c.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmudg16\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-cbd2c428e5d7a2dcb0e27e4782e5bb5028aaddbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-7a53a8387f874f1f3601068d73e8bc70d371b573.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\dmudg16\HostelBuddy\app\build\intermediates\pre-dexed\debug\classes-aacd84aab2ce37771355da3dbfb6663f33dc7a35.jar" />
+    </item>
+
+</items>

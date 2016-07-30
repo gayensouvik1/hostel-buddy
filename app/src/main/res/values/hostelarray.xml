@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="hostellist">
+        <item>Rajiv Bhawan</item>
+        <item>Govind Bhawan</item>
+        <item>Rajendra Bhawan</item>
+        <item>Ravindra Bhawan</item>
+    </string-array>
+    <string-array name="hostelvalues">
+        <item>Rajiv</item>
+        <item>Govind</item>
+        <item>Rajendra</item>
+        <item>Ravindra</item>
+    </string-array>
+</resources>

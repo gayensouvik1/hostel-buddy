@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:background="#fcef89"
+        >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="                       Swipe Left To Write Complaint ->"
+        android:id="@+id/textView11"
+        android:background="@color/common_action_bar_splitter"
+
+        android:layout_gravity="center_horizontal" />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#b6facb" />
+    </RelativeLayout>
+   <SlidingDrawer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+       android:handle="@+id/handle"
+       android:layout_marginTop="200dp"
+        android:id="@+id/sliding1">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="20dp"
+           android:id="@+id/handle"
+           />
+       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:orientation="vertical" android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/content"
+           android:background="#ffffff"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="Cat"
+               android:id="@+id/slidingtv3"
+               android:textColor="#000000"
+               android:textSize="14sp"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_marginLeft="15dp"
+               android:layout_marginStart="15dp"
+               android:layout_marginTop="15dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="Comp"
+               android:textSize="14sp"
+               android:textColor="#000000"
+               android:id="@+id/slidingtv2"
+               android:layout_below="@+id/slidingtv3"
+               android:layout_alignLeft="@+id/slidingtv3"
+               android:layout_alignStart="@+id/slidingtv3"
+               android:layout_marginTop="5dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="sl"
+               android:id="@+id/slidingtv1"
+               android:textColor="#000000"
+               android:textSize="14sp"
+               android:layout_below="@+id/slidingtv2"
+               android:layout_alignLeft="@+id/slidingtv2"
+               android:layout_alignStart="@+id/slidingtv2"
+               android:layout_marginTop="5dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="Prob"
+               android:textColor="#000000"
+               android:id="@+id/slidingtv5"
+               android:layout_marginTop="5dp"
+               android:layout_below="@+id/slidingtv1"
+               android:layout_alignLeft="@+id/slidingtv1"
+               android:textSize="14sp"
+               android:layout_alignStart="@+id/slidingtv1" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:text="Solved"
+               android:textSize="14sp"
+               android:id="@+id/slidingtv4"
+               android:layout_below="@+id/slidingtv5"
+               android:layout_alignLeft="@+id/slidingtv5"
+               android:layout_alignStart="@+id/slidingtv5"
+               android:layout_marginTop="5dp" />
+       </RelativeLayout>
+    </SlidingDrawer>
+
+</FrameLayout><!-- From: file:/C:/Users/dmudg16/HostelBuddy/app/src/main/res/layout/home.xml -->

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dmudg16.hostelbuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECIEVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logohb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultsActivity" />
+
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.startActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.SearchResultsActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.showcomplaints"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.showcomplaints" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.washroom"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.washroom" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.Electrician"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.electrician" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.loginpage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.loginpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.HomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.sportscomplaints"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.sportscomplaints" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.ProblemPage"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.writecomplaint" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.Unsolved"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.unsolved" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dmudg16.hostelbuddy.Solved"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.example.dmudg16.hostelbuddy.solved" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
